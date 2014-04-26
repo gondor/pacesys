@@ -1,0 +1,21 @@
+---
+layout: content
+---
+
+<div class="row-fluid post-full">
+  <div class="span12">
+	<div class="page-header">
+	  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+	</div>
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    <h1>{{ title }}</h1>
+    <div class="content">
+      {{ content }}
+    </div>
+<p>
+    <a href="/" class="btn btn-sm btn-info">Back to Main</a>
+<p>
+  </div>
+</div>

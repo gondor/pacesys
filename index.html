@@ -1,0 +1,84 @@
+---
+layout: index
+title: Pacesys Open Source
+---
+
+		<div class="jumbotron mainheader">
+			<div class="container">
+			
+				<div class="row-fluid">
+					<div class="span4">
+						<div class="project-span panel panel-primary">
+							<div class="panel-heading imageLabel">
+								OpenStack4j
+							</div>
+							<div class="panel-body">
+								<p>
+									A Fluent OpenStack Java Library. Complete support for all of OpenStack's core components.
+								</p>
+								
+							</div>
+								<div class="panel-footer">
+									<a href="http://www.openstack4j.com" target="_blank" class="btn btn-small btn-inverse" role="button">Website/Documentation</a> <a href="https://github.com/gondor/openstack4j" target="_blank" class="btn btn-small btn-success" role="button">GitHub (Source)</a>
+								</div>
+						</div>
+					</div>
+					
+					<div class="span4">
+						<div class="project-span panel panel-primary">
+							<div class="panel-heading imageLabel">
+								Reflect
+							</div>
+							<div class="panel-body">
+								<p>
+									Reflection the easy way! Fluent, Predicate, Annotation supported reflection library for Java
+								</p>
+							</div>
+								<div class="panel-footer">
+									<a href="https://github.com/gondor/reflect" target="_blank" class="btn btn-small btn-success" role="button">GitHub (Source/Documentation)</a>
+								</div>
+						</div>
+					</div>
+					
+					<div class="span4">
+						<div class="project-span panel panel-primary">
+							<div class="panel-heading imageLabel">
+								KBOP
+							</div>
+							<div class="panel-body">
+								<p>
+									Key Based Object Pool. A lightweight object pool in Java that provides factory lifecycle's, metrics, borrowing, releasing and object invalidation.
+								</p>
+							</div>
+							<div class="panel-footer">
+								<a href="http://www.kbop.org" target="_blank" class="btn btn-small btn-inverse" role="button">Website/Documentation</a> <a href="https://github.com/gondor/kbop" target="_blank" class="btn btn-small btn-success" role="button">GitHub (Source)</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- Info -->
+		<div class="row-fluid row-news" style="margin: 10px 0px;">
+			<div class="container">
+					<h1 class="text">Latest Posts</h1>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="container">
+				<div class="posts">
+				  {% for post in paginator.posts %}
+				  <div class="post">
+				    <h3 class="post-title">
+				      <a href="{{ post.url }}">
+				        {{ post.title }}
+				      </a>
+				    </h3>
+
+				    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+				    {{ post.excerpt }}
+				  </div>
+				  {% endfor %}
+				</div>
+			</div>
+		</div>

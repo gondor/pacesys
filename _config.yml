@@ -1,0 +1,6 @@
+# Jekyll
+permalink: pretty
+paginate: 10 
+name: Pacesys
+baseurl: 
+markdown: kramdown
