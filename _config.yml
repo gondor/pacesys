@@ -4,3 +4,4 @@ paginate: 10
 name: Pacesys
 baseurl: 
 markdown: kramdown
+url: http://www.pacesys.org

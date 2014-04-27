@@ -1,9 +1,10 @@
 ---
 layout: post
 title: OpenStack4j 1.0.1 Upcoming Release
+tags: [release, openstack4j, news]
 ---
 
-A lot of work has been put into 1.0.1 of OpenStack4j and lots of great goodies are in store.  If you are on `SNAPSHOTS` then you probably have been watching for these changes and checking out the updated documentation on the website.  If not, here are some teasers you can expect in the upcoming release.  
+A lot of work has been put into 1.0.1 of OpenStack4j and lots of great features are in store.  If you are on `SNAPSHOTS` then you probably have been watching for these changes and checking out the updated documentation on the website.  If not, here are some teasers you can expect in the upcoming release.  
 
 ### Recent Changelog
 

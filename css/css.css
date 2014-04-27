@@ -44,6 +44,7 @@ body {
 
 .nav-pacesys {
 	height:76px;
+	background: #036 !important;
 }
 
 a:hover {
@@ -158,9 +159,15 @@ span.green {
 
 .navbar .brand {
 	color: #FFF !important;
-	font-size:40px;
-	line-height:10px;
+	font-size:56px;
+	line-height:5px;
 	
+}
+
+h1.brand small {
+	text-shadow:none;
+	font-size: 20px;
+	vertical-align:middle;
 }
 
 /* Jumbotron */
@@ -173,6 +180,19 @@ span.green {
 }
 
 .jumbotron.mainheader {
+	background-color: #56aee4;
+	height:255px;
+}
+
+.header-bottom {
+	background: url(../assets/img/cloud-bottom.png) 30% 50% repeat-x;
+	position:relative;
+	bottom: 32px;
+	height:78px;
+}
+
+.jumbotron.mainheader-old {
+	
 	background: #eeeeee; /* Old browsers */
 	background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
@@ -240,7 +260,7 @@ a.brand:hover {
 }
 
 .nav-pacesys .container {
-	padding-top:15px;
+	padding-top:15px;	
 }
 
 .jumbotron .container {
@@ -1051,8 +1071,8 @@ thead th {
 }
 
 .container .text {
-    font-weight: 400;
-	color: black;
+    font-weight: 600;
+	color: #036;
 }
 
 #content .row-news .container
@@ -1065,8 +1085,7 @@ thead th {
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 3px 3px 2px #555;
 }
 .panel-body {
   padding: 15px;
@@ -1090,8 +1109,7 @@ thead th {
   color: inherit;
 }
 .panel-footer {
-  padding: 10px 15px;
-  background-color: #f5f5f5;
+  padding: 12px 15px;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
